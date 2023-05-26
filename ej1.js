@@ -5,6 +5,8 @@
 
 package com.sc303.clase2;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Laboratorios
@@ -29,4 +31,3 @@ public class Clase2 {
         
     }
 }
-
