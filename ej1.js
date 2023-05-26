@@ -23,8 +23,7 @@ public class Clase2 {
         float promedio = suma / 4;
           
         /* Imprimir el resultado */
-        System.out.println("Respuesta de la suma: "+suma);
-        System.out.println("El promedio es: "+ promedio);
+        JOptionPane.showMessageDialog(null,"Respuesta de la suma: " +suma+ "\n" + "El promedio es: "+promedio);
         
         
         
