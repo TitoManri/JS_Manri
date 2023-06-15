@@ -17,9 +17,11 @@ public class Clase4 {
         int estudiantes = 0;
         int nota_mayor = 0;
         int nota_menor = 100;
+        int total = 0;
         
         int cantidad = Integer.parseInt(JOptionPane.showInputDialog("Digite el numero de estudiantes: "));
         cantidad = estudiantes;
+        estudiantes = total;
         while (estudiantes == 0){
         int nota = Integer.parseInt(JOptionPane.showInputDialog("Digite su nota: "));
         
@@ -38,7 +40,7 @@ public class Clase4 {
         
         
         }
-        JOptionPane.showMessageDialog(null,"La nota Mayor es: "+nota_mayor+"\n La nota menor es: "+nota_menor+"");
+        JOptionPane.showMessageDialog(null,"La nota Mayor es: "+nota_mayor+"\n La nota menor es: "+nota_menor+"El total de estudiantes digitado es: "+total );
         
         }
         
